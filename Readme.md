@@ -6,21 +6,17 @@ Pontificia Universidad Javeriana - CALI Porgramacio'n Paralela
 Autor:  Geiler Orlando Hipia Meji'a
 
 ## Primeramente
-    * En el archivo Makefile estan previmente establecido las dimensiones de la matriz,\
+    En el archivo Makefile estan previmente establecido las dimensiones de la matriz,\
     la cantidad de hilos y el nu'mero de procesos.
         PROCS       = <nu'mero de procesos>
         THREADS		= <nu'mero de hilos>
         ROWS        = <nu'mero de filas>
         COLUMNS     = <nu'mero de columnas>
 ## NOTA IMPORTANTE:
-    * La cantidad de elementos de la matriz debe ser divisible por el nu'mero de procesos
-    * y la cantiad de hilos debe ser menor o igual al numero de filas por cada proceso.
-## Para compilar use
-    * make
-## Para ejecutar cada punto use
-    * make runp1
-    * make runp2
-    * make runp3
-    * make runp4
+     La cantidad de elementos de la matriz debe ser divisible por el nu'mero de procesos y la cantiad de hilos debe ser menor o igual al numero de filas por cada proceso.
+## Para compilar ingrese
+    $ make
+## Para ejecutar ingrese
+    $ make run
 ## Para limpiar usa
-    * make clean
+    $ make clean
