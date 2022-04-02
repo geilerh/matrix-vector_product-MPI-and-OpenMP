@@ -1,4 +1,5 @@
-main.c  - programa para calcular el producto matriz-vector secuencial  con omp, mpi y omp + mpi.                                     
+## main.c 
+          programa para calcular el producto matriz-vector secuencial  con omp, mpi y omp + mpi.                                     
           Producto matriz-vecotr, Ax=b, donde la matriz A se genera aleatoriamente dado los parametros m y n, donde m          
           es el numero de filas y n el numero de columnas.                                                                          
 Departamento de Electronica y Ciencias de la Computacion                   
